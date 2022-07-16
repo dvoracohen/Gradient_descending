@@ -24,7 +24,7 @@ function gradient_descent Iterator Finder
 defind the iterations number, the len of the data array and the learning rate
 Then each itteration wil find a line according to the cost, m-derived and b derived of the line
 and calculate the cost.
-The-model is 𝑓(𝑥)= 𝑎𝑥+𝑏
+The-model is 𝑓(𝑥)= 𝑎*sin(𝑥*𝑏)
 """
 def gradient_descent(x,y):
     #Define the default values randomly
